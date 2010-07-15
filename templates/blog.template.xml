@@ -66,6 +66,9 @@ span.title a:hover {
   background:#9c0000;
   text-decoration:underline;
 }
+div.button a {
+  background:none;
+}
 ul.home-posts li {
   line-height:1.8em;
 }
@@ -648,13 +651,13 @@ a.button:hover {
 
       <div id='sidebar-wrapper' style="text-align:right">
         <h2><span>Awesome like jude.</span></h2>
-        <div class="button"><a href="/p/sounddown.html"><img border="0" src="http://andjude.github.com/images/robots/images/robots/small/sounddown-orange.png" style="width:200px"/></a></div>
-        <div class="button"><a href="/p/disloke.html"><img border="0" src="http://andjude.github.com/images/robots/images/robots/small/disloke-purple.png" style="width:200px"/></a></div>
-        <div class="button"><a href="/p/cutmachine.html"><img border="0" src="http://andjude.github.com/images/robots/images/robots/small/cutmachine-pink.png" style="width:200px"/></a></div>
-        <div class="button"><a href="/p/spider.html"><img border="0" src="http://andjude.github.com/images/robots/images/robots/small/spider-blue.png" style="width:200px"/></a></div>
-        <div class="button"><a href="/p/skorpanaka.html"><img border="0" src="http://andjude.github.com/images/robots/images/robots/small/skorpanaka-purple.png" style="width:200px"/></a></div>
-        <div class="button"><a href="/p/superwave.html"><img border="0" src="http://andjude.github.com/images/robots/images/robots/small/superwave-green.png" style="width:200px"/></a></div>
-        <div class="button"><a href="/p/soundwave-housewave.html"><img border="0" src="http://andjude.github.com/images/robots/images/robots/small/soundwave-housewave-red.png" style="width:200px"/></a></div>              
+        <div class="button"><a href="/p/sounddown.html"><img border="0" src="http://andjude.github.com/images/robots/small/sounddown-orange.png" style="width:200px"/></a></div>
+        <div class="button"><a href="/p/disloke.html"><img border="0" src="http://andjude.github.com/images/robots/small/disloke-purple.png" style="width:200px"/></a></div>
+        <div class="button"><a href="/p/cutmachine.html"><img border="0" src="http://andjude.github.com/images/robots/small/cutmachine-pink.png" style="width:200px"/></a></div>
+        <div class="button"><a href="/p/spider.html"><img border="0" src="http://andjude.github.com/images/robots/small/spider-blue.png" style="width:200px"/></a></div>
+        <div class="button"><a href="/p/skorpanaka.html"><img border="0" src="http://andjude.github.com/images/robots/small/skorpanaka-purple.png" style="width:200px"/></a></div>
+        <div class="button"><a href="/p/superwave.html"><img border="0" src="http://andjude.github.com/images/robots/small/superwave-green.png" style="width:200px"/></a></div>
+        <div class="button"><a href="/p/soundwave-housewave.html"><img border="0" src="http://andjude.github.com/images/robots/small/soundwave-housewave-red.png" style="width:200px"/></a></div>              
               
         <div style="float:none;clear:both;text-align:center;width:100%;">
           <div style="border-bottom: 1px dotted silver; margin: 40px;padding-top:40px;"></div>
