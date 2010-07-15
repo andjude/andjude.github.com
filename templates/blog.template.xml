@@ -1,3 +1,4 @@
+<!-- jude, terms-of-service, privacy-policy, copyright-policy, jobs -->
 <!-- games, videos, robots, you -->
 <!-- sounddown (orange), disloke (purple), cutmachine (pink), spider (blue), skorpanaka (purple), superwave (green), soundwave-housewave (red) -->
 <html expr:dir='data:blog.languageDirection' 
@@ -671,7 +672,7 @@ a.button:hover {
         <div class="promo" style="height:280px">
           <div class="section" style="padding-right:36px;">
             <ul class="links first">
-              <li><a href="/p/about-us.html">Who is Jude?</a></li>
+              <li><a href="/p/jude.html">Who is Jude?</a></li>
             </ul>
           </div>
           <div class="section" style="padding-right:36px;">
@@ -710,7 +711,7 @@ a.button:hover {
        
         $.fn.tweet = function(o){
           var s = {
-            username: ["juderafter"],                  // [string]   required, unless you want to display our tweets. :) it can be an array, just do ["username1","username2","etc"]
+            username: ["andjude"],                     // [string]   required, unless you want to display our tweets. :) it can be an array, just do ["username1","username2","etc"]
             avatar_size: null,                         // [integer]  height and width of avatar if displayed (48px max)
             count: 3,                                  // [integer]  how many tweets to display?
             intro_text: null,                          // [string]   do you want text BEFORE your your tweets?
@@ -868,7 +869,7 @@ a.button:hover {
 
       $(document).ready(function(){
           $(".tweet").tweet({
-              username: "juderafter",
+              username: "andjude",
               join_text: "auto",
               avatar_size: 32,
               count: 3,
