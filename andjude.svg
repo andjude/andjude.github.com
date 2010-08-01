@@ -23,7 +23,15 @@
       <stop
          id="stop3288"
          offset="0"
-         style="stop-color:#9c0000;stop-opacity:1;" />
+         style="stop-color:#e60505;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ad2a2a;stop-opacity:1;"
+         offset="0.5"
+         id="stop3266" />
+      <stop
+         id="stop3268"
+         offset="0.50590307"
+         style="stop-color:#7e1717;stop-opacity:1;" />
       <stop
          id="stop3290"
          offset="1"
@@ -578,11 +586,11 @@
        xlink:href="#linearGradient3286"
        id="linearGradient2514"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(3.9056773,0,0,0.455,3980.2622,-269.98279)"
+       gradientTransform="matrix(3.9056773,0,0,0.455,4221.2495,-350.77355)"
        x1="-1437.1794"
-       y1="-550.52661"
+       y1="-561.40808"
        x2="-1437.1794"
-       y2="-426.33966" />
+       y2="-465.80371" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -594,9 +602,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.1660892"
-     inkscape:cx="-1716.0451"
-     inkscape:cy="1551.1142"
+     inkscape:zoom="1.6897277"
+     inkscape:cx="-1655.0565"
+     inkscape:cy="1663.9073"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -861,16 +869,16 @@
        x="-1752.8881"
        y="-518.90277" />
     <rect
-       style="fill:url(#linearGradient2514);fill-opacity:1.0;stroke:#861311;stroke-width:1.50000000000000000;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#linearGradient2514);fill-opacity:1;stroke:#861311;stroke-width:1.50000000000000000;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2512"
        width="107.97466"
        height="42"
-       x="-1686.884"
-       y="-524.67346"
-       rx="3"
-       ry="3"
+       x="-1445.8967"
+       y="-605.46423"
        inkscape:export-filename="/Users/njero/Projects/Web/andjude.github.com/images/button.png"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       ry="3"
+       rx="3" />
   </g>
 </svg>

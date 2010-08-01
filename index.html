@@ -35,11 +35,13 @@ body {
   line-height: 1.5;
 }
 
+a[href] {
+  padding:3px;
+}
 a {
   color:white;
   text-decoration:none;
   background:#9c0000;
-  padding:3px;
 }
 a:hover {
   color:black;
@@ -58,9 +60,6 @@ span.title a:hover {
   color:#fff;
   background:#9c0000;
   text-decoration:underline;
-}
-div.button a {
-  background:none;
 }
 ul.home-posts li {
   line-height:1.8em;
@@ -196,20 +195,22 @@ h2 { font-size:1.8em }
 #main-wrapper p+p { font-size:1em }
 
 a.button {
-  background:url("./images/button.png") no-repeat scroll 0 0 transparent;
-  border:medium none;
   color:white;
   font-size:1em;
-  height:43px;
+  height:33px;
   width:104px;
   display:block;
   float:left;
   text-align:center;
   padding-top:10px;
-  margin-right:10px;
+  margin-right:1px;
 }    
 a.button:hover {
+  color:#9c0000;
   text-decoration:none;
+}
+div.button a {
+  background:none;
 }
     </style>
     <link href="./images/transformerlogo48.png" type="image/png" rel="shortcut icon" />
@@ -219,14 +220,16 @@ a.button:hover {
   <body style="background:url('./images/body.png') repeat-x scroll 0 0 #0B0909 ">
     <div id='header-wrapper'>
       <div style="padding-top:40px;margin-left:100px;margin-bottom:-40px;">
-      <a class="button" id="games" href="/p/games.html"><span>Games</span></a>
-      <a class="button" id="videos" href="/p/videos.html"><span>Videos</span></a>
-      <a class="button" id="robots" href="/p/robots.html"><span>Robots</span></a>
-      <a class="button" id="you" href="/p/you.html"><span>You</span></a>
-      <form style="float:right;padding-right:100px;padding-top:20px;" action="/" method="get">
-        <label for="search" style="padding-top:3px;">Search for the allspark:</label>
-        <input id="search" value="Search" style="width:180px;margin-top:-3px;"/>
-      </form>
+        <a class="button" id="games" href="/p/games.html"><span>Games</span></a>
+        <a class="button" id="videos" href="/p/videos.html"><span>Videos</span></a>
+        <a class="button" id="robots" href="/p/robots.html"><span>Robots</span></a>
+        <a class="button" id="you" href="/p/you.html"><span>You</span></a>
+        <div style="float:right;padding-right:100px;padding-top:10px;">
+          <form id="searchthis" action="/search" style="display:inline;" method="get"> 
+            <input id="search-box" name="q" size="25" type="text"/> 
+            <input id="search-btn" value="Search" type="submit"/> 
+          </form>
+        </div>
       </div>
     </div>
     <div id='outer-wrapper'>
@@ -328,8 +331,11 @@ Want to find out the latest buzz in the 5-6 demographic? Do you think that Trans
           </div>
           <div class="section" style="padding-right:36px;">
             <ul class="links">
+              <li><a href="/p/games.html">Games</a></li>            
+              <li><a href="/p/videos.html">Videos</a></li>            
+              <li><a href="/p/robots.html">Robots</a></li>            
+              <li><a href="/p/you.html">You</a></li>            
               <li><a href="mailto:support@andjude.com">Help &amp; Support</a></li>
-              <li><a href="/p/jobs.html">Jobs</a></li>            
             </ul>
           </div>
           <div class="section" style="width:414px">
@@ -339,11 +345,12 @@ Want to find out the latest buzz in the 5-6 demographic? Do you think that Trans
             </div>
           </div>
         </div>
-        <div style="margin-top:-18px">
+        <div style="margin-top:-28px">
           <!-- Too cool: Ɔ⃝ -->          
           <div style="position: absolute; font-size: 14px;padding:0;margin:0;">&#x25EF;</div>
-          <div style="position:absolute;padding:0;margin:0;margin-left: 3px; margin-top:2px; font-size: 11px;">&#x186;</div>
-          <span class="deconstruct">&#160;&#160;&#160; Copyleft 2010 <a href="/" style="color:black;font-weight:bold;text-decoration:none">transformers3.andjudehesfive.com</a>, all content available under <a href="http://transformers3.andjudehesfive.com/p/copyright-policy.html" title="License">Creative-Commons Attribution license</a>.</span>
+          <div style="position:absolute;padding:0;margin:0;margin-left: 3px; margin-top:1px; font-size: 11px;">&#x186;</div>
+          <span class="deconstruct">&#160;&#160;&#160; Copyleft 2010 <a href="/" style="color:black;font-weight:bold;text-decoration:none">transformers3.andjudehesfive.com</a>
+          <br/>all content available under <a href="http://transformers3.andjudehesfive.com/p/copyright-policy.html" title="License">Creative-Commons Attribution license</a>.</span>
         </div>
       </div>
     </div>
